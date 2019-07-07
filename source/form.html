@@ -43,6 +43,36 @@
           Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
         </p>
       </div>
+      <section class="feedback">
+        <h2 class="visually-hidden">
+          Форма обратной связи для отзывов гостей города
+        </h2>
+        <form class="feedback__form" method="POST" action="https://echo.htmlacademy.ru">
+          <fieldset class="feedback__form-group feedback__form-group--personal-info">
+            <legend class="feedback__group-title">
+              Предстваьтесь:
+            </legend>
+            <p class="feedback__form-item">
+              <label class="feedback__form-label" for="userName">
+                Имя
+              </label>
+              <input class="feedback__form-field" type="text" name="userName" id="userName" placeholder="Петр">
+            </p>
+            <p class="feedback__form-item">
+              <label class="feedback__form-label" for="userSurname">
+                Фамилия
+              </label>
+              <input class="feedback__form-field" type="text" name="userSurname" id="userSurname" placeholder="Иванов">
+            </p>
+            <p class="feedback__form-item">
+              <label class="feedback__form-label" for="">
+                Отчество
+              </label>
+              <input class="feedback__form-field" type="text" name="userPatronymic" id="userPatronymic" placeholder="Александрович">
+            </p>
+          </fieldset>
+        </form>
+      </section>
     </main>
     <footer class="main-footer">
       <b class="main-footer__main-hashtag">
